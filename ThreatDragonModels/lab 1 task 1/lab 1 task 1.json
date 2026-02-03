@@ -103,8 +103,8 @@
                 "text": "Sys Admin"
               },
               "body": {
-                "stroke": "#333333",
-                "strokeWidth": 1.5,
+                "stroke": "red",
+                "strokeWidth": 2.5,
                 "strokeDasharray": null
               }
             },
@@ -201,9 +201,27 @@
               "isTrustBoundary": false,
               "outOfScope": false,
               "reasonOutOfScope": "",
-              "hasOpenThreats": false,
+              "hasOpenThreats": true,
               "providesAuthentication": false,
-              "threats": []
+              "threats": [
+                {
+                  "id": "1728e88a-866d-430d-9c68-6d896b411190",
+                  "title": "Impersonation",
+                  "status": "Open",
+                  "severity": "Critical",
+                  "type": "Spoofing",
+                  "description": "Provide a description for this threat",
+                  "mitigation": "Provide remediation for this threat or a reason if status is N/A",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 19,
+                  "score": ""
+                }
+              ],
+              "threatFrequency": {
+                "spoofing": 1,
+                "repudiation": 0
+              }
             }
           },
           {
@@ -369,7 +387,8 @@
             "shape": "flow",
             "attrs": {
               "line": {
-                "stroke": "#333333",
+                "stroke": "red",
+                "strokeWidth": 2.5,
                 "targetMarker": {
                   "name": "block"
                 },
@@ -390,13 +409,32 @@
               "outOfScope": false,
               "isTrustBoundary": false,
               "reasonOutOfScope": "",
-              "hasOpenThreats": false,
+              "hasOpenThreats": true,
               "isBidirectional": false,
               "isEncrypted": false,
               "isPublicNetwork": false,
               "protocol": "",
-              "threats": [],
-              "trustBoundaryIds": []
+              "threats": [
+                {
+                  "id": "f7cd90f1-800b-4877-8493-7cf1d784dde2",
+                  "title": "Horrible",
+                  "status": "Open",
+                  "severity": "TBD",
+                  "type": "Tampering",
+                  "description": "Provide a description for this threat",
+                  "mitigation": "Provide remediation for this threat or a reason if status is N/A",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 22,
+                  "score": ""
+                }
+              ],
+              "trustBoundaryIds": [],
+              "threatFrequency": {
+                "tampering": 1,
+                "informationDisclosure": 0,
+                "denialOfService": 0
+              }
             },
             "labels": [
               "Data Flow"
@@ -409,13 +447,20 @@
             "target": {
               "cell": "d09645f5-4967-4e12-bc74-1959afe9f653",
               "port": "b98b5dc3-c95f-4759-bb9c-80d336553f6d"
-            }
+            },
+            "vertices": [
+              {
+                "x": 710,
+                "y": -1350
+              }
+            ]
           },
           {
             "shape": "flow",
             "attrs": {
               "line": {
-                "stroke": "#333333",
+                "stroke": "red",
+                "strokeWidth": 2.5,
                 "targetMarker": {
                   "name": "block"
                 },
@@ -436,13 +481,32 @@
               "outOfScope": false,
               "isTrustBoundary": false,
               "reasonOutOfScope": "",
-              "hasOpenThreats": false,
+              "hasOpenThreats": true,
               "isBidirectional": false,
               "isEncrypted": false,
               "isPublicNetwork": false,
               "protocol": "",
-              "threats": [],
-              "trustBoundaryIds": []
+              "threats": [
+                {
+                  "id": "26d15aad-bf3b-4070-b26c-6abff3918469",
+                  "title": "Horrible",
+                  "status": "Open",
+                  "severity": "Critical",
+                  "type": "Tampering",
+                  "description": "Provide a description for this threat",
+                  "mitigation": "Provide remediation for this threat or a reason if status is N/A",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 21,
+                  "score": ""
+                }
+              ],
+              "trustBoundaryIds": [],
+              "threatFrequency": {
+                "tampering": 1,
+                "informationDisclosure": 0,
+                "denialOfService": 0
+              }
             },
             "labels": [
               "Data Flow"
@@ -455,7 +519,13 @@
             "target": {
               "cell": "3aebfa0a-9d87-434b-91fe-ebc03f1178df",
               "port": "e2110c15-d35d-4564-96be-635c7017a0e6"
-            }
+            },
+            "vertices": [
+              {
+                "x": 826,
+                "y": -1260
+              }
+            ]
           },
           {
             "shape": "flow",
@@ -547,13 +617,15 @@
             "target": {
               "cell": "3aebfa0a-9d87-434b-91fe-ebc03f1178df",
               "port": "acf7ec54-104f-4b1a-abf7-60bb48d5d803"
-            }
+            },
+            "vertices": []
           },
           {
             "shape": "flow",
             "attrs": {
               "line": {
-                "stroke": "#333333",
+                "stroke": "red",
+                "strokeWidth": 2.5,
                 "targetMarker": {
                   "name": "block"
                 },
@@ -574,13 +646,32 @@
               "outOfScope": false,
               "isTrustBoundary": false,
               "reasonOutOfScope": "",
-              "hasOpenThreats": false,
+              "hasOpenThreats": true,
               "isBidirectional": false,
               "isEncrypted": false,
               "isPublicNetwork": false,
               "protocol": "",
-              "threats": [],
-              "trustBoundaryIds": []
+              "threats": [
+                {
+                  "id": "899b4126-f5af-43de-818c-0efcc73eebe7",
+                  "title": "Horrible",
+                  "status": "Open",
+                  "severity": "Critical",
+                  "type": "Tampering",
+                  "description": "Provide a description for this threat",
+                  "mitigation": "Provide remediation for this threat or a reason if status is N/A",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 20,
+                  "score": ""
+                }
+              ],
+              "trustBoundaryIds": [],
+              "threatFrequency": {
+                "tampering": 1,
+                "informationDisclosure": 0,
+                "denialOfService": 0
+              }
             },
             "labels": [
               "Data Flow"
@@ -594,64 +685,6 @@
               "cell": "7adc2ff2-bf2d-4afe-9f1e-939088c69dbd",
               "port": "5a676ac2-5a7b-40f9-a73a-735f42f4c69d"
             }
-          },
-          {
-            "shape": "flow",
-            "attrs": {
-              "line": {
-                "stroke": "#333333",
-                "targetMarker": {
-                  "name": "block"
-                },
-                "sourceMarker": {
-                  "name": ""
-                },
-                "strokeDasharray": null
-              }
-            },
-            "width": 200,
-            "height": 100,
-            "zIndex": 10,
-            "connector": "smooth",
-            "data": {
-              "type": "tm.Flow",
-              "name": "Data Flow",
-              "description": "",
-              "outOfScope": false,
-              "isTrustBoundary": false,
-              "reasonOutOfScope": "",
-              "hasOpenThreats": false,
-              "isBidirectional": false,
-              "isEncrypted": false,
-              "isPublicNetwork": false,
-              "protocol": "",
-              "threats": [],
-              "trustBoundaryIds": [
-                "ff49ee38-8579-4c6d-916f-e9c38ef31981"
-              ]
-            },
-            "labels": [
-              "Data Flow"
-            ],
-            "id": "fff6c725-88fd-4b66-a42f-df938452ed4e",
-            "source": {
-              "cell": "fa5fc744-c1a3-4e35-b6fb-24febf6aac45",
-              "port": "ffb15b80-89f8-4756-83dd-2c7f043a1524"
-            },
-            "target": {
-              "cell": "7adc2ff2-bf2d-4afe-9f1e-939088c69dbd",
-              "port": "3e9a2572-990f-4acc-92f4-d3bda3f57c54"
-            },
-            "vertices": [
-              {
-                "x": 810,
-                "y": -1090
-              },
-              {
-                "x": 750,
-                "y": -1090
-              }
-            ]
           },
           {
             "shape": "flow",
@@ -954,6 +987,72 @@
             "vertices": []
           },
           {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "red",
+                "strokeWidth": 2.5,
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": "block"
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Data Flow",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": true,
+              "isBidirectional": true,
+              "isEncrypted": true,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": [
+                {
+                  "id": "7e7019c6-5929-4d54-a8f9-d9c16f02972a",
+                  "title": "Data leak",
+                  "status": "Open",
+                  "severity": "Medium",
+                  "type": "Information disclosure",
+                  "description": "Provide a description for this threat",
+                  "mitigation": "Provide remediation for this threat or a reason if status is N/A",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 18,
+                  "score": ""
+                }
+              ],
+              "trustBoundaryIds": [],
+              "threatFrequency": {
+                "tampering": 0,
+                "informationDisclosure": 1,
+                "denialOfService": 0
+              }
+            },
+            "labels": [
+              "Data Flow"
+            ],
+            "id": "c6e4eedc-b722-4f7f-ad36-f8507f58303a",
+            "source": {
+              "cell": "7adc2ff2-bf2d-4afe-9f1e-939088c69dbd",
+              "port": "3e9a2572-990f-4acc-92f4-d3bda3f57c54"
+            },
+            "target": {
+              "cell": "fa5fc744-c1a3-4e35-b6fb-24febf6aac45",
+              "port": "ffb15b80-89f8-4756-83dd-2c7f043a1524"
+            }
+          },
+          {
             "position": {
               "x": 796.25,
               "y": -1201
@@ -967,8 +1066,8 @@
                 "text": "Billing"
               },
               "body": {
-                "stroke": "#333333",
-                "strokeWidth": 1.5,
+                "stroke": "red",
+                "strokeWidth": 2.5,
                 "strokeDasharray": null
               }
             },
@@ -1132,11 +1231,13 @@
             },
             "attrs": {
               "topLine": {
-                "strokeWidth": 1.5,
+                "stroke": "red",
+                "strokeWidth": 2.5,
                 "strokeDasharray": null
               },
               "bottomLine": {
-                "strokeWidth": 1.5,
+                "stroke": "red",
+                "strokeWidth": 2.5,
                 "strokeDasharray": null
               }
             },
@@ -1265,7 +1366,7 @@
           {
             "position": {
               "x": 950,
-              "y": -1100
+              "y": -1110
             },
             "size": {
               "width": 112.5,
@@ -2005,6 +2106,6 @@
     ],
     "diagramTop": 1,
     "reviewer": "",
-    "threatTop": 17
+    "threatTop": 22
   }
 }
