@@ -810,7 +810,7 @@
               "reasonOutOfScope": "",
               "hasOpenThreats": false,
               "isBidirectional": true,
-              "isEncrypted": false,
+              "isEncrypted": true,
               "isPublicNetwork": false,
               "protocol": "",
               "threats": [],
@@ -1198,7 +1198,7 @@
             },
             "attrs": {
               "text": {
-                "text": "Personnel"
+                "text": "User"
               },
               "body": {
                 "stroke": "#333333",
@@ -1294,7 +1294,7 @@
             "zIndex": 14,
             "data": {
               "type": "tm.Actor",
-              "name": "Personnel",
+              "name": "User",
               "description": "",
               "isTrustBoundary": false,
               "outOfScope": false,
@@ -1777,6 +1777,6 @@
     ],
     "diagramTop": 1,
     "reviewer": "",
-    "threatTop": 0
+    "threatTop": 4
   }
 }
