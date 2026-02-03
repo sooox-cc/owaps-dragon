@@ -44,9 +44,9 @@
               "isTrustBoundary": true,
               "hasOpenThreats": false,
               "crossingFlows": [
-                "fff6c725-88fd-4b66-a42f-df938452ed4e",
                 "2eafe0c0-de71-4727-9c3f-0c01133c246e",
-                "72ea6e68-a6fd-4cdf-9f2f-c4d9ff454071"
+                "72ea6e68-a6fd-4cdf-9f2f-c4d9ff454071",
+                "c6e4eedc-b722-4f7f-ad36-f8507f58303a"
               ],
               "containedElements": [
                 "f96310d2-166a-4db3-94b7-3e0e07c761d0",
@@ -1032,7 +1032,9 @@
                   "score": ""
                 }
               ],
-              "trustBoundaryIds": [],
+              "trustBoundaryIds": [
+                "ff49ee38-8579-4c6d-916f-e9c38ef31981"
+              ],
               "threatFrequency": {
                 "tampering": 0,
                 "informationDisclosure": 1,
@@ -1478,6 +1480,13 @@
               "hasOpenThreats": false,
               "providesAuthentication": false,
               "threats": []
+            },
+            "tools": {
+              "items": [
+                "boundary",
+                "button-remove"
+              ],
+              "name": null
             }
           },
           {
