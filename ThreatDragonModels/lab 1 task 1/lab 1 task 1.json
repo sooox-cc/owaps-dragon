@@ -34,6 +34,9 @@
               "height": 60
             },
             "attrs": {
+              "text": {
+                "text": "yello\n"
+              },
               "body": {
                 "stroke": "#333333",
                 "strokeWidth": 1.5,
@@ -128,7 +131,7 @@
             "zIndex": 1,
             "data": {
               "type": "tm.Process",
-              "name": "Process",
+              "name": "yello\n",
               "description": "",
               "outOfScope": false,
               "isTrustBoundary": false,
