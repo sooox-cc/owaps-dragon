@@ -396,13 +396,6 @@
                 "informationDisclosure": 1,
                 "denialOfService": 2
               }
-            },
-            "tools": {
-              "items": [
-                "boundary",
-                "button-remove"
-              ],
-              "name": null
             }
           },
           {
@@ -2167,8 +2160,8 @@
             },
             "visible": true,
             "shape": "td-text-block",
-            "id": "154090bb-b43b-42e1-aef1-2231c99a1f3d",
             "zIndex": 19,
+            "id": "154090bb-b43b-42e1-aef1-2231c99a1f3d",
             "data": {
               "type": "tm.Text",
               "name": "Critical",
@@ -2191,13 +2184,13 @@
             },
             "visible": true,
             "shape": "td-text-block",
+            "zIndex": 20,
             "id": "1b848220-0729-485b-a15f-8cb503dc2214",
             "data": {
               "type": "tm.Text",
               "name": "Critical",
               "hasOpenThreats": false
-            },
-            "zIndex": 20
+            }
           }
         ]
       }
